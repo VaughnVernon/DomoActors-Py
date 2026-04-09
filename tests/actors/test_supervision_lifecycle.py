@@ -55,7 +55,7 @@ class RestartingSupervisor(ActorProtocol):
     pass
 
 
-class RestartingSupervisorImpl(Actor, DefaultSupervisor):
+class RestartingSupervisorImpl(DefaultSupervisor):
     """Supervisor that returns Restart directive."""
 
     def __init__(self):
@@ -102,7 +102,7 @@ class ResumingSupervisor(ActorProtocol):
     pass
 
 
-class ResumingSupervisorImpl(Actor, DefaultSupervisor):
+class ResumingSupervisorImpl(DefaultSupervisor):
     """Supervisor that returns Resume directive."""
 
     def __init__(self):
@@ -147,7 +147,7 @@ class StoppingSupervisor(ActorProtocol):
     pass
 
 
-class StoppingSupervisorImpl(Actor, DefaultSupervisor):
+class StoppingSupervisorImpl(DefaultSupervisor):
     """Supervisor that returns Stop directive."""
 
     def __init__(self):

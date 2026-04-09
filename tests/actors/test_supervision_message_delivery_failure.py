@@ -56,7 +56,7 @@ class RestartSupervisor(ActorProtocol):
     async def get_last_error(self) -> Exception: ...
 
 
-class RestartSupervisorImpl(Actor, DefaultSupervisor):
+class RestartSupervisorImpl(DefaultSupervisor):
     def __init__(self):
         super().__init__()
         self._inform_count = 0
@@ -101,7 +101,7 @@ class ResumeSupervisor(ActorProtocol):
     async def get_inform_count(self) -> int: ...
 
 
-class ResumeSupervisorImpl(Actor, DefaultSupervisor):
+class ResumeSupervisorImpl(DefaultSupervisor):
     def __init__(self):
         super().__init__()
         self._inform_count = 0
@@ -141,7 +141,7 @@ class StopSupervisor(ActorProtocol):
     async def get_inform_count(self) -> int: ...
 
 
-class StopSupervisorImpl(Actor, DefaultSupervisor):
+class StopSupervisorImpl(DefaultSupervisor):
     def __init__(self):
         super().__init__()
         self._inform_count = 0
