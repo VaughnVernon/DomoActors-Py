@@ -2,7 +2,7 @@
 
 A Production-Ready Actor Model Toolkit for Python
 
-[![License: RPL-1.5](https://img.shields.io/badge/License-RPL--1.5-blue.svg)](https://opensource.org/license/rpl-1-5)
+[![License: LGPL-3.0](https://img.shields.io/badge/License-LGPL--3.0-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![PyPI](https://img.shields.io/badge/pypi-domo--actors-blue.svg)](https://pypi.org/project/domo-actors/)
 [![Test Coverage](https://img.shields.io/badge/coverage-86%25-green.svg)](./tests)
@@ -471,17 +471,13 @@ DomoActors-Py is inspired by and builds upon concepts from:
 
 ## License
 
-This Source Code Form is subject to the terms of the Reciprocal Public License, v. 1.5.
-If a copy of the RPL was not distributed with this file, You can obtain one at
-https://opensource.org/license/rpl-1-5.
-
-Reciprocal Public License 1.5
+GNU Lesser General Public License v3.0 (LGPL-3.0)
 
 See: ./LICENSE.md
 
 
-Copyright © 2012-2025 Vaughn Vernon. All rights reserved.
-Copyright © 2012-2025 Kalele, Inc. All rights reserved.
+Copyright © 2012-2026 Vaughn Vernon. All rights reserved.
+Copyright © 2012-2026 Kalele, Inc. All rights reserved.
 
 ## About the Creator and Author
 

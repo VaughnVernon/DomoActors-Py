@@ -5,17 +5,16 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "domo-actors"
 version = "1.0.0"
-description = "A Production-Ready Actor Model Toolkit for Python"
+description = "DomoActors-Py Actor Model Toolkit for Python"
 readme = "README.md"
-license = {text = "RPL-1.5"}
+license = "RPL-1.5"
 authors = [
     {name = "Vaughn Vernon", email = "vaughn@kalele.io"}
 ]
 keywords = ["actor", "actors", "actor-model", "concurrency", "async", "distributed"]
 classifiers = [
-    "Development Status :: 5 - Production/Stable",
+    "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
-    "License :: OSI Approved",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
